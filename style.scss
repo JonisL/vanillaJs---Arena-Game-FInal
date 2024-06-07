@@ -1,0 +1,76 @@
+$main-color: #0a53be;
+@mixin bg-image-settings() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background-color: $main-color;
+}
+
+.imageDiv {
+  height: 400px;
+  width: 400px;
+  @include bg-image-settings;
+  background-image: url("https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg");
+}
+
+
+.flex1 {
+  flex: 1
+}
+
+
+img {
+  height: 300px;
+}
+
+.hpProgress {
+  height: 20px;
+  background-color: #cbcbcb;
+  width: 100%;
+  div {
+    background-color: #6cd065;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.centerConsole {
+  width: 400px;
+}
+
+
+.attackButton {
+  background-color: #e04c4c;
+  color: white;
+  cursor: pointer;
+}
+
+.centerConsole img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.playerImages img {
+  height: 200px;
+  width: 200px;
+}
+
+.selected {
+  border: 2px solid black
+}
+
+.weapons img {
+  height: 100px;
+  width: 100px;
+}
+
+.gameLog {
+  height: 300px;
+  overflow: auto;
+}
+
+
